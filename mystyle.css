@@ -10,3 +10,62 @@ body{
     text-align:center ;
     flex-direction: column;
 }
+h1{
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+    color: rgb(245, 255, 250);
+    font-size: 40px;
+    width: 500px;
+    margin-bottom: 65px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    color: black;
+    border: none ;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom:1.5px ;
+    margin-right: 6px;
+    margin-left: 6px;
+    min-width: 50px;
+    height: 50px;  
+    font-weight: bolder;
+    transition: background-color 10ms; 
+    cursor: pointer;
+}
+
+.pinky{
+    background-color:#176B87;
+}
+.Ring{
+    background-color: #64CCC5;
+}
+.Middle{
+    background-color:#FF9EAA;
+}
+.Pointer1{
+    background-color:#DAFFFB;
+}
+.Pointer2{
+    background-color:#FFD0D0;
+}
+#caps{
+    width: 59px;
+}
+#tab{
+    width: 59px;
+}
+#delete{
+    width: 60px;
+}
+#RShift{
+    width: 120px;
+}
+#LShift{
+    width: 120px;
+}
+button:hover{
+    background-color: #001c30;
+}
